@@ -1,0 +1,44 @@
+.grid {
+  display: block;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.input_names {
+  padding: 10px;
+}
+
+.current_player {
+  margin: 0;
+  margin-left: 18px;
+}
+
+.cell {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 75px;
+  height: 75px;
+  padding: 25px;
+  border: 5px solid navy;
+  margin: 5px;
+  border-radius: 15px;
+  float: left;
+}
+
+.cell:hover {
+  background-color: #CCE6FF;
+}
+
+.X {
+  background-image: url("cross.png");
+  background-size: 100%;
+}
+
+.O {
+  background-image: url("nought.png");
+  background-size: 100%;
+}
+
