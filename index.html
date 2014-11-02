@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <script src="main.js"></script>
@@ -52,24 +53,68 @@
   </div>
 
   <div class="grid">
-    <table>
-      <tr>
-          <td class="cell" id="1"></td>
-          <td class="cell" id="2"></td>
-          <td class="cell" id="3"></td>
-      </tr>
-      <tr>
-          <td class="cell" id="4"></td>
-          <td class="cell" id="5"></td>
-          <td class="cell" id="6"></td>
-      </tr>
-      <tr>
-          <td class="cell" id="7"></td>
-          <td class="cell" id="8"></td>
-          <td class="cell" id="9"></td>
-      </tr>
-    </table>
+    <div class="container">
+
+      <div class="row">
+        <div class=".col-md-2">
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="1">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="2">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="3">
+          </div>
+        </div>
+        <div class=".col-md-4">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class=".col-md-2">
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="4">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="5">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="6">
+          </div>
+        </div>
+        <div class=".col-md-4">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class=".col-md-2">
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="7">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="8">
+          </div>
+        </div>
+        <div class=".col-md-2">
+          <div class="cell" id="9">
+          </div>
+        </div>
+        <div class=".col-md-4">
+        </div>
+      </div>
+
+    </div>
   </div>
+
   <p class="current_player">guest 1, your turn...</p>
 
   <div class="navbar navbar-default navbar-fixed-bottom">
@@ -80,7 +125,7 @@
 
       <div class="collapse navbar-collapse navHeaderCollapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/iljagoushcha">LinkedIn</a></li>
           <li><a href="#">GitHub</a></li>
           <li><a href="#">Twitter</a></li>
         </ul>
