@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Tic Tac Toe</title>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdn.firebase.com/js/client/1.1.3/firebase.js"></script>
   <script src="main.js"></script>
-  <link rel="stylesheet" href="cssreset.css">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Tic Tac Toe</h1>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-brand">Tic Tac Toe</div>
+    </div>
+  </div>
+
   <p class="welcome"></p>
   <div class="input_names">
     <input class="player1_name" type="text" name="user" placeholder="Enter Player 1 Name">
@@ -38,5 +43,6 @@
   </div>
   <p class="current_player">guest 1, your turn...</p>
 
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
