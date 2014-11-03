@@ -22,3 +22,18 @@
       </tr>
     </table>
   </div>
+
+      <div class="row">
+        <form class="form-inline">
+
+          <div class="form-group">
+
+            <input class="player1_name form-control " type="text" name="user" placeholder="Enter Name 1">
+          </div>
+
+          <div class="form-group">
+            <input class="player2_name form-control" type="text" name="user" placeholder="Enter Name 2">
+          </div>
+
+        </form>
+      </div>

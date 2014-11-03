@@ -1,3 +1,11 @@
+h6 {
+  padding-left: 7px;
+}
+
+input {
+  max-width: 150px;
+}
+
 .grid {
   display: block;
   padding: 10px;
