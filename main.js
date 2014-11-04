@@ -111,6 +111,10 @@ $(document).ready(function() {
     }
   }
 
+  var resetGrid = function() {
+
+  }
+
   var grid = initializeGrid();
   var player1 = new Player("guest 1", "X");
   var player2 = new Player("guest 2", "O");

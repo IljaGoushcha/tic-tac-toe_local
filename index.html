@@ -3,13 +3,13 @@
 <head>
   <title>Tic Tac Toe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <script src="main.js"></script>
   <script src="js/bootstrap.js"></script>
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -50,102 +50,46 @@
 
 
 
-  <div class="grid">
-    <div class="container">
+  <div class="container">
+    <h6 class="welcome"></h6>
+  </div>
 
-      <div class="row">
-        <div class=".col-md-3">
-          <h6 class="welcome"></h6>
-        </div>
-        <div class=".col-md-5">
-        </div>
-        <div class=".col-md-9">
-        </div>
-      </div>
+  <div class="container">
+    <input class="player1_name form-control" type="text" name="user" placeholder="Enter Name 1">
+    <input class="player2_name form-control" type="text" name="user" placeholder="Enter Name 2">
+  </div>
 
-      <div class="row">
-        <form class="form-inline">
+  <div class="container">
 
-          <div class="form-group">
-            <input class="player1_name form-control " type="text" name="user" placeholder="Enter Name 1">
-          </div>
-
-          <div class="form-group">
-            <input class="player2_name form-control" type="text" name="user" placeholder="Enter Name 2">
-          </div>
-
-        </form>
-      </div>
-
-      <div class="row">
-        <div class=".col-md-3">
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="1">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="2">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="3">
-          </div>
-        </div>
-        <div class=".col-md-3">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class=".col-md-3">
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="4">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="5">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="6">
-          </div>
-        </div>
-        <div class=".col-md-3">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class=".col-md-3">
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="7">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="8">
-          </div>
-        </div>
-        <div class=".col-md-2">
-          <div class="cell" id="9">
-          </div>
-        </div>
-        <div class=".col-md-3">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class=".col-md-3">
-          <h6 class="current_player">guest 1, your turn...</h6>
-        </div>
-        <div class=".col-md-5">
-        </div>
-        <div class=".col-md-9">
-        </div>
+    <div class="well">
+      <div class="grid">
+        <table>
+          <tr>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+            <td class="cell" id="3"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+            <td class="cell" id="6"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+            <td class="cell" id="9"></td>
+          </tr>
+        </table>
       </div>
 
     </div>
+
+    <h6 class="current_player">guest 1, your turn...</h6>
+    <button type="button" class="btn btn-danger reset">Reset Grid</button>
+
+
   </div>
+
 
   <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
@@ -163,8 +107,6 @@
 
     </div>
   </div>
-
-
 
 </body>
 </html>

@@ -37,3 +37,88 @@
 
         </form>
       </div>
+
+<button type="button" class="btn btn-danger">Reset Grid</button>
+
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="1">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="2">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="3">
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="4">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="5">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="6">
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="7">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="8">
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="cell" id="9">
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+        </div>
+      </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="form-inline">
+
+        <div class="form-group">
+          <div class="col-xs-5 col-sm-4 col-md-4">
+            <input class="player1_name form-control" type="text" name="user" placeholder="Enter Name 1">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-5 col-sm-4 col-md-4">
+            <input class="player2_name form-control" type="text" name="user" placeholder="Enter Name 2">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-2 col-sm-4 col-md-4">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

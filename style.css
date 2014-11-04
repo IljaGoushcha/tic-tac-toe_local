@@ -2,13 +2,16 @@ h6 {
   padding-left: 7px;
 }
 
-input {
+.form-control {
   max-width: 150px;
+  margin-bottom: 10px;
+  margin: 5px;
+  float: left;
 }
 
 .grid {
   display: block;
-  padding: 10px;
+  padding: 0px;
   padding-bottom: 0px;
 }
 
@@ -21,17 +24,28 @@ input {
   margin-left: 18px;
 }
 
+.reset {
+  position: relative;
+  left: 225px;
+}
+
+.well {
+  max-width: 320px;
+  margin: 0;
+  padding: 7px;
+}
+
 .cell {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  width: 90px;
-  height: 90px;
+  width: 95px;
+  height: 95px;
   padding: 25px;
-  border: 5px solid navy;
-  margin: 5px;
+  border: 4px solid navy;
+  margin: 3px;
   border-radius: 15px;
   float: left;
 }
